@@ -14,6 +14,7 @@ public class Browser {
 	
 	public static WebDriver dri;
 	
+	
 	public WebDriver lunchUrl() throws Exception
 	{
 		Properties obj = new Properties();
