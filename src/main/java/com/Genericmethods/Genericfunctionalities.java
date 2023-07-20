@@ -50,7 +50,6 @@ public class Genericfunctionalities  extends Browser{
 			}
 			
 		}
-		
 		//Generic Explicity Wait method
 		public void delay(WebDriver dr, By element,long time)
 		{	

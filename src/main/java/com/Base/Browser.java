@@ -13,8 +13,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Browser {
 	
 	public static WebDriver dri;
-	
-	
 	public WebDriver lunchUrl() throws Exception
 	{
 		Properties obj = new Properties();
