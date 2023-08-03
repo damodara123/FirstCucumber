@@ -16,23 +16,16 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@e2e
-Feature: Customers
-  I want to use this template for my feature file
 
-@functionality
-  Scenario: Add a new Customer
-    Given User Launch Chrome browser
-    And User enters Email as "admin@yourstore.com" and Password as "admin"
-    And Click on Login
+Feature: Customer Roles
+
+  Scenario: Customer Role Table
     Then User can view Dashboard
     When User Click on customers Menu
-    And Clicks on customers menu Item
+    And Clicks on customers role Item
     And Click on Add new button
     Then User can view Add new customers page
-    When User enter customer info
+    When User enter customer role info
     And Click on Save button
     Then User can view confirmation message "The new customer has been added successfully."
-    And Close browser
-
 
