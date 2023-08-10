@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 			glue = "stepsDefination",
 			dryRun = false,
 			plugin = {"pretty", "html:target/cucumber-reports2.html"},
-			tags="@smoketest and @login",
+			tags="@e2e",
 			publish = true
 			
 		)
