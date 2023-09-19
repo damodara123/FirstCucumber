@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 			features = ".//Features",
 			glue = "stepsDefination",
 			dryRun = false,
-			plugin = {"pretty", "html:target/cucumber-reports2.html"},
+			plugin = {"pretty", "html:target/cucumber-reports4.html"},
 			tags="@e2e",
 			publish = true
 			
